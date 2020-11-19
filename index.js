@@ -1,7 +1,7 @@
 const login = require("facebook-chat-api");
 const axios = require("axios");
  
-login({email: "simcute97@gmail.com", password: "linhvoheu2097"}, (err, api) => {
+login({email: "hipcute24@gmail.com", password: "linhvoheu2097"}, (err, api) => {
     if(err) return console.error(err);
  
     api.listen((err, message) => {
